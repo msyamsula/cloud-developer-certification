@@ -1,0 +1,11 @@
+redshift is created based from postgres, but it is not suitable for OLTP (transactional database)
+
+redshift best use for OLAP (analytical database) as a data warehouse
+
+since redshift is OLAP then pros and cons of redshift is just OLAP vs OLTP
+
+OLAP is good for keeping huge data and also good for retrieving data, but not in milisecond manner. it is not build to handle huge traffic
+
+OLTP on the other hand, is good for huge traffic millisecond data retrieval. but not good for storing huge data
+
+redshift is a columnar storage database

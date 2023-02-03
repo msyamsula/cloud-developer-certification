@@ -1,0 +1,39 @@
+# RDS (relational database system)
+
+it is a manage service from aws which compatible with
+1. postgres
+2. mysql
+3. oracle
+
+it has product called "aurora" which is a custom made by amazon to enhance database performance
+
+aurora support postgres and mysql
+it is claimed that aurora is faster than open source postgres/mysql
+
+you can manually make a snapshot out of your RDS state
+then you can do some of following action
+1. share the snapshot
+2. create new database out of the snapshot
+3. move snapshot to another availability zone/region
+4. etc
+
+# RDS DEPLOYMENT OPTION
+1. read replica
+2. multi AZ (availability zone)
+3. multi region read replica
+
+for read replica, your will have replica of your main RDS so read load can be distributed between your main RDS and your replicas.
+you can have up to 5 read replica.
+keep in mind that you still only have one main RDS and every write must go to this main RDS
+every write to main RDS will automatically get replicated to replicas, so you have to keep in mind about a replication process (it takes time, not instantly)
+
+Multi AZ is a full backup of your main RDS and its replicas but within different availability zone.
+there will be a replication across Multi AZ to ensure that your backup is in sync with your running main RDS.
+in case of disaster of AZ. it will automatically promote the backup AZ and keep your system running
+
+Multi region read-replica is an option for you to spawn read replicas outside your main RDS region.
+again there will be replication between main and replicas, since it is across region you will get some cost over it.
+the write also still goes into main RDS.
+this setup is advantageous if you run a global scale system which got read from different region. Having multi region read replica will decrease latency of user in different region
+
+

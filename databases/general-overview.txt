@@ -1,0 +1,13 @@
+database vs file system
+
+database pros: (compare to file system)
+1. have more structured data
+2. can elevate index for faster query
+3. can have relational between datasets
+
+type of database
+1. relational database (SQL)
+2. NoSQL database
+3. in-memory database (redis)
+4. graph database
+5. search database

@@ -1,0 +1,18 @@
+dynamoDB is a NoSQL product from amazon, much like mongoDB
+
+it provide
+1. fast retrieval
+2. scaling to massive workload
+3. no relational, meaning flexible data
+4. auto scalling capability
+
+it is a key/value paradigm
+key is your unique key
+value is your data which can contain many attributes/field
+
+amazon provide a specific cache system for dynamoDB called "dynamoDB accelerator"
+so you don't need to use elasticache to cache your flow to dynamoDB
+
+you can have dynamoDB Global Table which is a replication of your main dynamoDB within different region or AZ.
+unlike RDS, dynamoDB has active-active replication (two ways replication) means that replica can make a replication to your main dynamoDB.
+this make dynamoDB very scallable because beside you decrease the read load. write load of dynamoDB is also decrease by these replication since you can write to any dynamoDB (not limited to main)

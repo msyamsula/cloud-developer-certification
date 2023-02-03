@@ -1,0 +1,4 @@
+elasticache database is an in-memory database provided by AWS
+
+it works like redis, which save data in memory rather than disk.
+it has fast/premium speed of read but very costly

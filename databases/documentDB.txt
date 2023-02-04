@@ -1,0 +1,1 @@
+documentDB is an implementation of mongo db in amazon

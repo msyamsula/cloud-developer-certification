@@ -1,0 +1,6 @@
+glue is an ETL (extract, transform, load) service from amazon
+
+you can use glue when you have big dataset that is not really in the correct format and you want to tidy up your data.
+
+one use case is you will prepare your data from S3, transform it according to your need, and load it to RDS.
+you can use glue. In this case glue will connect to S3 as source and RDS as target and it will run a script which will format data coming from S3 and transform it so it can be load to RDS.

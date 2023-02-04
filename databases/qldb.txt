@@ -1,0 +1,5 @@
+QLDB stands for "quantum ledger database"
+
+it is an immutable system. Nobody can change/remove once data is stored.
+cryptographically verified
+has a central authority which is a server that run this QLDB in amazon

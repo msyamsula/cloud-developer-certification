@@ -1,0 +1,5 @@
+dms stands for database migration service
+
+it use for migration from one database to another
+
+it support homogeneous (postgres-postgres, mongo-mongo) and heterogeneous (postgres-mongo, mongo-graph) migration

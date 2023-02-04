@@ -1,0 +1,4 @@
+amazon athena is a service that can analyze/query data from your s3 bucket
+
+cost of athena: 5$ for each TB data scanned
+can be reduced if you use compressed/columnar data

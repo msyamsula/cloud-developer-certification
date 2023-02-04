@@ -1,0 +1,4 @@
+quicksight is a monitoring tools for AWS.
+
+it like graphana and used mostly for building a dashboard for system monitoring.
+it also can integrate with other amazon service to create a monitoring dashboard for that service and do a visualization

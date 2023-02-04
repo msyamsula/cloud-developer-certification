@@ -1,4 +1,6 @@
 dynamoDB is a NoSQL product from amazon, much like mongoDB
+it is similar to mongoDB but it is not an implementation of mongoDB.
+one dynamoDB instance can be treat as a single table which can store high data and retrieve very fast with its index.
 
 it provide
 1. fast retrieval

@@ -1,0 +1,13 @@
+imagine you have an ec2 in aws, you run some program/API that is short-executed.
+
+if you think about it. Although the functionality is short-executed, you still have to run your server 24 hours. and pay hourly rate
+
+this is where aws lambda come in play. You only pay as your API/program executed.
+
+lambda is auto-scalling service. so when your API/program got a lot of traffic, the server will adjust accordingly.
+
+some use case of lambda but not limited to
+
+1. cron
+
+lambda usually very cheap

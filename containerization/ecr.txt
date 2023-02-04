@@ -1,0 +1,5 @@
+ECR = elastic container registry
+
+this is a private docker repository/registry hosted on amazon.
+it is used for storing your docker images.
+it is like a dockerhub but private

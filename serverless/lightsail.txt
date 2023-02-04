@@ -1,0 +1,5 @@
+amazon lightsail is a kickstart service from amazon.
+
+once you start lightsail you will have simple EC2, ELB, networking, etc.
+
+this service is created mainly to serve people with little experience/just starting in cloud computing

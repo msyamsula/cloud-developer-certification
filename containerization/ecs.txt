@@ -1,0 +1,9 @@
+ECS = elastic container service
+
+it is a service where you want to deploy your docker to amazon
+
+you need to "manually" provision/setup/determined your ec2 instance first. i.e
+1. set how many instance of ec-2 do i need
+2. is it t2-micro, xlarge, compute optimize, etc
+
+after that ECS will smart enough to assign any new container to your ec2 instances (can be multiple)

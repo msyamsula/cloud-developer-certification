@@ -1,0 +1,11 @@
+serverless is a term that you dont have to manage/see the ec2 instance behind it.
+
+serverless service will NOT ask you server tier, total server, server ram, cpu, etc.
+the moment you create server is automatically created by AWS and will have elastic capability, meaning it will scale automatically.
+
+some example of serverless service:
+1. S3
+2. dynamoDB
+3. fargate
+4. lambda 
+5. API gateway

@@ -1,0 +1,1 @@
+api gateway is a serverless service which can wrap your lambda function and give it a RESTful API to it.

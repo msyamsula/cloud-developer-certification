@@ -1,0 +1,4 @@
+fargate is like ECS the big different is, in fargate, you don't need to manually provision ec2 instance
+
+ec2 instance will automatically provision for you. It will be based on cpu/ram that you need from your container.
+because you are not managing any ec2 instance, fargate is serverless.

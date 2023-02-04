@@ -1,0 +1,4 @@
+amazon batch is a service to run a batch task in amazon
+
+the task should be in container/docker.
+differ from lambda with has timelimit of execution, batch has no limit of execution.

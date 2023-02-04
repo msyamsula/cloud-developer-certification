@@ -1,0 +1,9 @@
+amazon outpost is an physical rack that will ship to your on premise server.
+
+so any creation of RDS, EC2, ECS, EKS, etc will happen on that rack.
+
+it kind of an extension rack of aws that live in your on premise.
+
+you are responsble to maintain the rack.
+
+rack can be move to aws data center and migrate all the data to aws data center if you proceed with full cloud server migration.

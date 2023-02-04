@@ -1,0 +1,3 @@
+local zone is an extension of aws region so you can deploy it closer to your user.
+
+local zone not available in every region. see aws global infrastructure for more detail.

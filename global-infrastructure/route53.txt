@@ -1,0 +1,16 @@
+route53 is a DNS service provided by aws
+
+DNS service is like a phone book. it can map domain name to IP address of our server.
+
+there are some well known mapping in DNS (called record)
+1. A record (it maps DNS to IPv4)
+2. AAAA record (maps DNS to IPv6)
+3. CNAME record (maps DNS to DNS)
+4. alias record (maps DNS to aws resource)
+
+
+route53 has several "route policy"
+1. simple, no health check, you just get ip address every request.
+2. weighted, this is useful if you have multiple instance mapped to one DNS, you can assign weight on the route policy that specify percentage of traffic to a certain IP from your IP addresses.
+3. latency, this will help you reduce latency. by routing the DNS to IP address that has lowest latency
+4. disaster recovery, basically you set up a failover IP address that will be used when primary IP address fail.

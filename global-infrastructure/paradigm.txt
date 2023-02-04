@@ -1,0 +1,9 @@
+there is some point that need to be kept in mind when architecting app for global infrastructure
+
+1. deploy your app close to your user
+2. introduce redundancy for disaster recovery
+3. create multiple server for load distribution
+4. distribute your server to decrease 1 point of failure, crash, DoS, hacker, etc
+
+global infrastructure aws:
+https://infrastructure.aws

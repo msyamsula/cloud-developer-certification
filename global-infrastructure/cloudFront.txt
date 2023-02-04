@@ -1,0 +1,5 @@
+cloudFront is a CDN (content delivery network) in aws.
+
+it improve read performance by caching frequent request to your server into 216 (keep adding) cache location across the globe.
+
+keep in mind cloudFront is a cache not a replication.

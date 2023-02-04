@@ -1,0 +1,23 @@
+VPC stands for virtual private network.
+
+this is a network that is given to you by default in each aws region.
+
+it will contain CIDR block that will available to you for creating ip address of your resources.
+
+you can also add another VPC on your own.
+
+VPC span across multiple AZ in one region.
+
+you can further divide your VPC into subnet.
+
+each subnet should be subset of CIDR range of your VPC.
+
+there is two type of subnet which are public and private subnet.
+
+the main different is public subnet can communicate directly to internet when private subnet can't.
+
+but resource within aws can always communicate even if it is located between private and public subnet.
+
+Internet Gateway (IGW) is a service that make your public subnet communicate with internet. think it like modem.
+
+NAT Gateway is a service that can be spawn on public subnet to make private subnet can access the internet without being accessible from internet. (keep in mind it can access internet but CAN'T be accessed from internet).

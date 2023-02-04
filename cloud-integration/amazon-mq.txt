@@ -1,0 +1,5 @@
+SNS, and SQS is a cloud native, meaning it use protocol created by aws.
+
+it you use queue with open protocol like AMQP, MTTQ, etc. you need amazon mq to use it.
+
+amazon mq can have SQS queue and SNS topic.

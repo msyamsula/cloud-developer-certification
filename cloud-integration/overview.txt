@@ -1,0 +1,7 @@
+this section mainly talks about decoupling a service. creating event based system. queue system. rather than synchronous system
+
+services that you can use are:
+1. SQS: queue model -> like rabbit mq
+2. SNS: pub/sub model -> like nsq/redis pub/sub
+3. Kinesis: real time data streaming -> like kafka
+4. amazon mq: it is a sqs and sns that compatible with open protocol like AMQP or MTTQ

@@ -1,0 +1,7 @@
+kinesis is a managed service that process a real-time big data
+
+there is a sub service in amazon kinesis which are
+1. kinesis stream, this is where your data come into contact with kinesis
+2. kinesis analytic, real time analytic of the data stream that you get from kinesis stream
+3. kinesis firehouse, a way to store your streaming data into S3, redshift, postgres, dynamoDB, documentDB etc.
+4. kinesis video stream, stream a video data.

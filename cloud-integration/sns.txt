@@ -1,0 +1,5 @@
+SNS system notification system
+
+this is pub/sub manage service from aws.
+
+it can have a topic, publisher, and subscriber.

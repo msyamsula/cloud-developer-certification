@@ -1,0 +1,3 @@
+code star is a UI service to manage your deployment.
+
+it can visualize your code-commit, code-build, code-pipeline, code-deploy, and code-artifact.

@@ -1,0 +1,12 @@
+cloud formation is a declarative way to create resource in AWS, such as ec2, fargate, s3, load balance, etc
+
+you can automate your creation and deletion of resources.
+it is an infrastructure as a code, so any change/modification can be reviewed through code review section
+it has a template, so you can leverage cloud formation template rather than creating on your own
+
+resource documentation of cloud formation
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbinstance.html
+
+cloud formation is a brand coupled infrastructure as service. so it will be work only for aws cloud.
+
+there is infrastructure as a service which can communicate to AWS, Google, Microsoft, etc which is terraform

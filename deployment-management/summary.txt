@@ -1,0 +1,14 @@
+this is a simple reminder of each deployment & management service in aws, please read more about it if you need detailed understanding.
+
+1. cloud formation = rather than clicking button on aws UI, you can write your resource (ec2, rds, asg, etc) as a code and ask aws to deploy it. (code is it YAML/JSON)
+2. cloud development kit = this is a cloud formation but with your preferred language like (python, go, js, java, etc).
+3. cloud-9 = this is an IDE service so you can collaborate with cloud IDE.
+4. code-artifact = this is a service where you can manage your code artifact.
+5. code-build = this is a service which can build your code and test it.
+6. code-commit = this is a code repository from aws, pretty much like github/gitlab.
+7. code-deploy = this is a service which can configure where to deploy your apps.
+8. code-pipeline = this is a glue that make code-commit, code-build, code-deploy run in harmony. This is a core of CI/CD within aws environment.
+9. code-star = this is a UI package of code-build, code-commit, code-deploy, code-pipeline, cloud-9
+10. elastic-beanstalk = this is a platform as a service for a web app in aws.
+11. ssm-session-manager = this is a service that can SSH to your server even if the server don't allow SSH, as long as you have IAM role attach to your server and SSM agent installed in it.
+12. ssm = this is a service that can help you to patch, configure, update your multiple server at once. ssm agent need to be installed for every server that is controlled by ssm. 

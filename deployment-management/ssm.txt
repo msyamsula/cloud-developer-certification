@@ -1,0 +1,7 @@
+aws system manager (SSM) is a service to manage your ec2 and your on premise server.
+
+this can execute some command, update, or change to your multiple server.
+
+every server need to install SSM agent.
+
+it support windows and linux/ubuntu.

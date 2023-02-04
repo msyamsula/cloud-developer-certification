@@ -1,0 +1,3 @@
+this is an artifact management in aws. (store, update, and retrieve artifact)
+
+beside this option. you can also store this within S3

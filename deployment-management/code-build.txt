@@ -1,0 +1,7 @@
+this is a service that will get a source code and build it before deploying the app.
+
+output of a build is an artifact.
+code build also comes with testing ability.
+
+it is a serverless and scalable.
+pay as you build.

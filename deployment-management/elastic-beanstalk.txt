@@ -1,0 +1,12 @@
+elastic beanstalk is a developer point of view to deploying an app (usually web app).
+
+usually, you need ec2 instance, rds, elasticache for caching, auto scaling group (ASG), and LB.
+
+elastic beanstalk configure all above resource for you.
+
+all you need to do is just deploying the code to beanstalk.
+
+differ from lambda, beanstalk is a platform as a service. it is not a serverless, because at some point you can configure all resource that is given to you.
+when for lambda, you don't really have control over the resource that is given to you.
+
+beanstalk use cloud formation to get a resources for you.

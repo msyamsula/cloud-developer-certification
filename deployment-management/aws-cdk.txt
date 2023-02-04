@@ -1,0 +1,7 @@
+CDK (cloud development kit)
+
+this is another layer which you can use your prefered programming language rather than YAML/JSON file of cloudFormation.
+
+so, with this CDK you will do all your cloudFormation with your language.
+
+there will be compilation from your language to YAML/JSON. So, at the end, cloud formation still comes to play.

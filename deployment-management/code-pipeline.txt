@@ -1,0 +1,5 @@
+this is a fully manage pipeline creation to deploy a code.
+
+usually this will work along code commit, code build, & code deploy.
+
+this is a basis CI/CD within aws environment.

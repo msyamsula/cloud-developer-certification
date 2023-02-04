@@ -1,0 +1,3 @@
+ssm session manager is a service that can create SSH to your server event when it is not allowed for SSH.
+
+as long as you attach IAM role to your ec2 instance so SSM session manager can do SSH to it.

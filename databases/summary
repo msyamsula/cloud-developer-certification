@@ -1,0 +1,15 @@
+in simple term this is a database product from aws
+
+1. athena = querying your data from S3 (serverless, and support SQL like language)
+2. dms = use for migration data (homogen/heterogen)
+3. documentDB = mongo implementation of aws (noSQL database support scallability and read performance)
+4. dynamoDB = aws customed noSQL
+5. elasticache = in-memory database (redis equivalent)
+6. emr = hadoop cluster
+7. glue = ETL serverless service
+8. managed blockchain = for creating decentralized ledger (blockchain)
+9. neptune = graph database
+10. qldb = centralize ledger
+11. quicksight = dashboard
+12. redshift = OLAP database (data warehouse)
+13. RDS = relational database (postgres/mysql)

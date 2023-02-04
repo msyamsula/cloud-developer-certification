@@ -1,0 +1,6 @@
+VPC flow logs is an IP address log, so you can monitor your traffic within your VPC.
+
+it also useful for troubleshooting your traffic
+subnet to subnet
+subnet to internet
+internet to subnet

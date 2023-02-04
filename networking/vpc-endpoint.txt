@@ -1,0 +1,9 @@
+every endpoint that you get from creating a resource is a public endpoint.
+
+it means that your ec2 instance will communicate with rds via public internet. even if ec2 and rds is within the same subnet.
+
+vpc endpoint is way to connect your resource in aws with private and more secure connection
+
+there are two types of vpc endpoint
+1. vpc endpoint gateway for s3 and dynamoDB
+2. vpc endpoint interface for the rest

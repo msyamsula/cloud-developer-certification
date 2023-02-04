@@ -1,0 +1,5 @@
+VPC peering is a way to connect multiple VPC into one VPC.
+
+it is not transitive.
+
+if you have VPC A - VPC B, and VPC B - VPC C. it means VPC C can't communicate directly with VPC A, you also must create a peering from VPC A - VPC C.

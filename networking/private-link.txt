@@ -1,0 +1,9 @@
+let say you have app running on your vpc on aws and there is a vendor running on its own vpc on aws.
+
+how do we connect this two app.
+
+1. via public internet, which is risky but doable.
+2. via VPC peering, so your VPC is becoming one network with them. which usually unwanted (we need a privacy). this approach also not scalable.
+3. private link is a solution. so your VPC and theirs can connect with more secure with private network.
+
+to set up a private link. a requester need to set up ENI (Elastic Network Interface) and the recipient need to setup a Load Balancer.

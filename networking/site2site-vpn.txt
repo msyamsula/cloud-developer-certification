@@ -1,0 +1,15 @@
+site to site vpn is connecting your on premise network to aws VPC via public internet.
+
+the connection is encrypted.
+
+it looks like a vpc peering but for connecting network outside aws data center.
+
+in order to use site to site vpn, on premise network must installed customer gateway (CGW) and your aws VPC must installed virtual gateway (VGW).
+
+another way to connect on premise to your aws VPC is via direct connect (DX).
+
+it will literally create a physical connection from aws data center to your on premise.
+
+it is more fast, secure, and private.
+
+but it cost more and can take month to setup. since there is a hardware comes in play.

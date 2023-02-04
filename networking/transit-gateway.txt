@@ -1,0 +1,7 @@
+VPC peering, site to site vpn, and direct connect can handle VPC merger if the VPC is low in quantity.
+
+if you have hundred of VPC that need to be connected. using three approach above will become messy (using the fact that it is not transitive).
+
+so, to tackle this problem. all of your VPC can connect to a single service called "transit gateway" in a star topology.
+
+by this, all your VPC is connected through this transit gateway.

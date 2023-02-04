@@ -1,0 +1,22 @@
+there are two firewall to manage traffic in aws cloud by default.
+
+They are
+1. Network Access Control List (NACL)
+2. Security Group
+
+NACL is firewall at subnet level.
+
+it secures all resource within the subnet with user defined rules.
+
+it can have allow or deny traffic rule.
+
+it is stateless meaning return value must also specify in order to go outside/inside the subnet.
+
+
+Security group is a firewall at instance/resource level.
+
+it secure all the resource with user defined rules.
+
+it can only have allow rule.
+
+it is stateful, meaning for allowed request the return value always allowed going through security group even if you don't specify the request allow rule.

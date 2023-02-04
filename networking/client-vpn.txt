@@ -1,0 +1,5 @@
+client vpn is a way to connect your local machine to your VPC.
+
+using client vpn will connect your local machine with private IP address of your VPC (as if your local machine is within your VPC).
+
+if you can connect to a VPC A. you can also connect to any VPC that is peering with VPC A or has site to site vpn to VPC A.

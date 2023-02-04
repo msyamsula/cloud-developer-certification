@@ -5,7 +5,7 @@ this is a brief summary of aws networking
 3. private subnet = is a subset of your VPC that live in one AZ. it cannot be accessed from internet, but it can access internet through NAT gateway.
 4. NAT gateway = a service that can make private subnet access internet.
 5. Internet gateway = a service that make public subnet can access and be accessed from internet. (think like modem).
-6. vpc-peering = it a procedure to merge/connect multiple VPC into one VPC. notes: VPC peering is not transitive.
+6. vpc-peering = it a procedure to merge/connect multiple VPC into one VPC. notes: VPC peering is not transitive. and can't have overlapped IP between VPC.
 7. vpc-endpoint = it will make your communication between resource to use private network rather than public network.
 8. vpc-flow-log = is a monitoring of your traffic in your vpc.
 9. site-to-site VPN = it is like a VPC peering but for connecting on premise with aws VPC.

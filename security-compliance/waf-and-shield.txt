@@ -1,0 +1,22 @@
+WAF = web application firewall & shield. are defence mechanism of aws for your instance.
+as the name suggest. in it a firewall that happen in web application (HTTP protection) against xss, sql injection.
+you need to define Web Access Control List (Web ACL) to protect your HTTP
+
+Web ACL can be set to block and allow HTTP request based on
+1. http method, header, body.
+2. geo location
+3. ip address
+4. rate
+
+this mainly implemented to mitigate DDoS (distributed denial of service)
+
+DDoS happen when hacker run multiple instance of bot to try to cripple your web application. by choking it with traffic.
+so normal user will experienced a more latency and waiting time.
+
+the way we defend ourself in aws is by using shield and waf
+
+1. standard shield is a default shield that is granted to you free automatically
+2. premium shield is more secure with additional cost and with high level of defence
+3. WAF, create a firewall rule to your instances.
+4. leveraging auto scaling group to mitigate heavy load from attacker.
+5. Cloudfront and Route53 with WAF and shield to protect the edge location.

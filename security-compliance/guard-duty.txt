@@ -1,0 +1,5 @@
+amazon guard duty is a one click service. It uses machine learning to protect your aws account for any suspicious activiy
+once you enable it. it will gather some data from VPC flow logs, DNS logs, CloudTrail, K8s audit log, etc.
+then you can setup "Event Brigde" rule to notify in case of findings.
+Event Brigde can trigger lambda or SNS
+GuardDuty can protect against cryptocurrency attack.

@@ -1,0 +1,4 @@
+cloud HSM = hardware security module.
+
+in KMS, aws manage and encrypt the key for us. but for HSM. aws will only give us hardware to encrypt our data.
+every management of the keys should be manage by us.

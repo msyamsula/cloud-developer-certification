@@ -1,0 +1,2 @@
+amazon detective is a service to get to the root cause of a problem.
+root cause analysis is done from data gathered via VPC flow logs, DNS logs, CloudTrail, etc. using ML and graph

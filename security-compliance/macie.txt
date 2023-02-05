@@ -1,0 +1,2 @@
+macie is a one click fully manage service that will look a sensitive data in your S3 bucket.
+it is service based on machine learning.

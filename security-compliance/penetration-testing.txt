@@ -1,0 +1,6 @@
+penetration testing is a test that you do against your own app to check the security level of your app.
+usually it conducts to get sensitive data, credential, restricted area, illegal move, etc.
+
+some penetration testing is allowed by default by aws.
+
+however, for some resources you need to contact aws and have its permission to do a penetration testing.

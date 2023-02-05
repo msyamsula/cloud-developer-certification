@@ -1,0 +1,5 @@
+acm = aws certificate manager
+
+this is a service that can manage your TLS certificate in order to create HTTPS request to your instance.
+it support public and private TLS.
+it's free for public TLS.

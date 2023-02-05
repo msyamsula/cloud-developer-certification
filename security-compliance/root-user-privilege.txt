@@ -1,0 +1,13 @@
+root user is a very powerfull account. It can do almost anything on your account.
+this is a user when you first create your account.
+it is not recommended to perform daily administrative task with this account. use IAM user instead.
+having said that, there is only task that can only be done by root user such as:
+
+1. close your aws account
+2. change S3 bucket policy
+3. sign up for govCloud
+4. register as seller in amazon marketplace
+5. change account setting (account name, email, password)
+6. restore IAM user permission
+7. view tax invoice
+8. change or cancel aws support plan

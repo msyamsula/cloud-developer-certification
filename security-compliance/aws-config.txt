@@ -1,0 +1,12 @@
+aws config is a service that will go through all your resource config.
+all the config found will be assess based on the rule you select such as
+1. restricted ssh
+2. public ip disabled.
+3. account part of the organization
+4. etc, complete list can be found on aws when you create config (there are lots of compliance default)
+
+to use config you need to have s3 bucket to store your config.
+any change in your config can be monitored.
+after everything is setup. You can see any non compliance config.
+you can see change log of your config.
+and, you can see who makes what change in the config. 

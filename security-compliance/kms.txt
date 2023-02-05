@@ -1,0 +1,31 @@
+there are two types of encryption
+
+1. encryption of data at rest. meaning you see encrypted data in storage, not actual data.
+2. encryption of data in transit. meaning you may see actual data in storage but you can't see it while it move through some app.
+
+
+by default.
+encryption in transit is applied when you move data from on-premise to aws.
+
+to encrypt your data (whether it is at rest or in transit). you need an encryption key.
+
+AWS KMS (Key Management System) is a service to manage your encryption key.
+in KMS we don't necessarilly have the key, we only need to specify who can use it key and AWS will manage it for us.
+
+some resource in AWS offer encryption without KMS and will encrypt your data when you enable the encryption option.
+1. EBS volume
+2. S3
+3. redshift
+4. RDS
+5. EFS
+
+some will get automatically encrypted. this is just part of that resource work.
+1. CloudTrail Logs
+2. S3 glacier
+3. Storage Gateway
+
+
+type of encryption key (CMK, Customer Master Key)
+1. AWS manage CMK, all encryption key manage and create by aws
+2. Customer manage CMK, all encryption key manage and create by customer
+3. Cloud HSM key store, all encryption key manage and create with your own cloud HSM.

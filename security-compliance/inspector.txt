@@ -1,0 +1,10 @@
+amazon inspector is a service that can run automated security assessment.
+it limited only for ec2 instances, ecr, and lambda.
+you can leverage SSM (service manager) to make inspector assess your multiple ec2.
+inspector will assess docker image as you push the image to ECR.
+inspector will assess lambda function as you deploy it.
+inspector will assess based from known vulnerability database.
+you can create event bridge to catch any security findings.
+and you may connect event bridge to lambda or SNS for further notification.
+
+Since your config you saved into S3, you can perform analytic to it using athena.

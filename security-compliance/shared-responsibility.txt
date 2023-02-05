@@ -1,0 +1,37 @@
+aws shared responsibility model
+
+when you are using aws as your cloud provider. You still have responsiblity to your resource.
+along with aws responsibility. This make you and aws has its own responsibility to make sure security, availability, scalling, etc.
+
+
+Security of the cloud
+AWS: protecting the hardware security, software vulnerability, etc.
+User: using proper security group, nacl, subnet division correctly.
+
+RDS
+AWS:
+    - disable SSH
+    - guarantee working system
+    - automated db patching
+    - automated os patching
+    - manage ec2 instance underlying it
+User:
+    - security groups
+    - user permission of RDS
+    - data encryption
+
+
+S3
+AWS:
+    - guarantee unlimited storage
+    - guarantee encryption if you say so
+    - ensure separation data between each customer
+    - ensure privacy (aws employee can't access your bucket)
+User:
+    - bucket configuration
+    - bucket policy (whether it is public or private)
+    - IAM user & roles
+    - enabling data encryption
+
+you can go through more detail shared responsibility model by reading this article
+https://aws.amazon.com/id/compliance/shared-responsibility-model/

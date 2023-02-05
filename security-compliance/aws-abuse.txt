@@ -1,0 +1,10 @@
+if you find/experience suspicious activity and abuse within aws such as.
+
+1. Spam - receiving email from aws owned IP address
+2. port scanning - scan every port to see which one is accessible.
+3. DDoS
+4. Intrusion attempt - logging in to your account
+5. distributing malware
+
+you can contact aws for that activity to abuse@amazon.com or contact aws abuse team
+abuse is a customer service contact for reporting any abusive and suspicious behavior in and to your aws cloud.

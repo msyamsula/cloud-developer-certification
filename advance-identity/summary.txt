@@ -1,0 +1,6 @@
+this is a summary of advance identity in aws cloud
+
+1. cognito = automatically create external user database for your web app and mobile app
+2. iam-identity-center = manage multiple user by one user/password (single sign in)
+3. sts (security token service) = to create temporary access (IAM role) that can be assign to any user.
+4. active-directory = an active directory service from aws

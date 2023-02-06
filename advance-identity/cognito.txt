@@ -1,0 +1,2 @@
+amazon cognito is an user identity manager for web app and mobile application.
+cognito will create automatically your user database identity (user/password) to login to your app.

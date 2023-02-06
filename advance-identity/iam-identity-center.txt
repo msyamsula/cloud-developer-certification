@@ -1,0 +1,4 @@
+usually you will give your team one account per person to manage aws cloud.
+
+by iam-identity-center. you can set one single user/password to sign in. then after using that you can choose any account you want to become.
+so instead of remembering 4 user/password set. I only need 1 user/password set and choose who i want to be when exploring the aws cloud.

@@ -1,0 +1,4 @@
+STS = security token service
+
+this is a service that will provide you with temporary access (IAM role) to certain service.
+you can set the expiry for the access key.

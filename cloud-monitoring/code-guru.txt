@@ -1,0 +1,9 @@
+this is a machine learning based service from aws.
+it do automated code review and application performance recommendation.
+
+there is sub division of codeGuru service
+
+1. code guru reviewer = for automated code review based on static code analysis
+2. code guru profiler = for giving a recommendation what to change within your code to improve performance.
+
+this service is limited to java and python (will evolve in the future)

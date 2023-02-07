@@ -1,0 +1,11 @@
+there are two part of health-dashboard service
+
+1. service history = this is a history data about all service within aws cloud in every region. this is for each day. there is rss feed.
+2. account history = provide alert and remediation guidance when aws experiencing event that might impact you. personalized view into the performance and availability of your service.
+3. organization history = provide health check of all resource for your organization
+
+use case:
+let's say there is outage in aws data center
+then aws will update the service history page and make detail about it (when to resolve etc). this is a health check of all aws resource and data center. to give you reliability information of aws infrastructure.
+for account history, this is a health of aws service that is used by you (more personalize)
+you can also set organization history to do aws health check that is used by your organization

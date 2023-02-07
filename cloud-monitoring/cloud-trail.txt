@@ -1,0 +1,7 @@
+cloud-trail is a governance, compliance, audit for all your aws account.
+enable by default.
+record all API call/activity by your account.
+you may put all history data to cloud watch or S3. (this is done for longer data retention)
+recording data can be applied to single region or multiple region.
+
+there is a cloud trail insight which will perform automated analysis of account activity.

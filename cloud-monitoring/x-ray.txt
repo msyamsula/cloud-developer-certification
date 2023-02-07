@@ -1,0 +1,8 @@
+x-rays is a distributed tracing service in aws.
+you will have visualization of your distributed service, better.
+
+use case:
+1. dependency visualization
+2. troubleshooting
+3. SLA analysis
+4. pin point service issue

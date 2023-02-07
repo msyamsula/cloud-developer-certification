@@ -1,0 +1,8 @@
+cloud watch is a service to store all your aws metrics and log (CPU, RAM, network, bandwidth, exception, etc).
+it can then be query to create dashboard, analysis, debugging, etc.
+this is a centralize monitoring service for you.
+you also can setup an alarm based on certain threshold condition.
+you also can push some custom metrics and logs to cloud watch.
+data stored in cloud watch can be set to retention policy (you may setup retention to 2 days, 3 days, permanent, as you want)
+you need to installed cloud watch logs agent to make your server able to push it to cloud watch.
+IAM role assignment is also needed

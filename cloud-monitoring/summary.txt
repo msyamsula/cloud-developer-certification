@@ -1,0 +1,7 @@
+cloud trail = this is a monitoring/log/history of the activity of your aws account. you may put your log to s3 or cloud watch for longer retention
+cloud watch = metric and logs storage that can be queried to create dashboard, alarm, and monitoring of your system
+code guru = code review, perform automated code review based on static code analysis. code profiler, give a recommendation to your code to get better performance
+event bridge = event manager in aws cloud. you can configure any event from within aws or outside aws and react to it by triggering some lambda, sns, sqs, etc.
+service dashboard = health check of aws infrastructure
+personal health dashboard = ui to see impacted service/infrastructure whenever aws patch, update, event happen.
+x-ray = distributed tracing from aws cloud.

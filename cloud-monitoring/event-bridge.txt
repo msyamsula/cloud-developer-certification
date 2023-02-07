@@ -1,0 +1,9 @@
+this is an event management from aws.
+you can create event for cron scheduling purpose. (cron)
+you can react to certain event from another service. (event based)
+all the event usually coupled with lambda function to do something when some event happen.
+
+event bridge can react from multiple event source:
+1. source from aws cloud (using default bus)
+2. aws partner such as datadog (using partner bus)
+3. customer own event system (using custom event bus)

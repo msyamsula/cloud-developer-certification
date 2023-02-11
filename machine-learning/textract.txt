@@ -1,0 +1,1 @@
+textract is a service to extract text from hand writing, document, id, form, etc.

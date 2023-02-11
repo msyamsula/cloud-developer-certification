@@ -1,0 +1,11 @@
+1. comprehend: natural language processing
+2. forecast: forecasting based on historical data
+3. kendra: ML powered search engine
+4. lex-connect: alexa (ASR, NLP, cloud contact center)
+5. personalize: real time personalized recommendation
+6. polly: text to audio
+7. rekognition: labeling, face recognition, path coverage (in sport)
+8. sage-maker: machine learning model
+9. textract: extract text from id, document, handwritting, etc
+10. transcribe: audio to text
+11. translate: translate between human language

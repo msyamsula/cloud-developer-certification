@@ -1,0 +1,8 @@
+ML that become a core of alexa (siri). (contact center/intent recognition)
+high level step is as follow
+1. speech recognition to translate speech command to text
+2. using natural language processing to get the intent of the text
+3. execute the command
+
+connect:
+1. receive and create calls

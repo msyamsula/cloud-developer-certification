@@ -1,0 +1,48 @@
+trusted advisor is a service that run check and give you recommendation about 5 categories.
+
+1. performance
+2. cost optimization
+3. security
+4. fault tolerance
+5. service limit
+
+this check is based on recommendations from aws
+
+
+support plan
+1. basic & developer support plan (7 core checks)
+    a. s3 bucket permission
+    b. security group
+    c. iam use
+    d. mfa on root account
+    e. ebs public snapshot
+    f. rds public snapshot
+    g. service limit
+
+2. business & enterprise support plan (full checks)
+
+
+main difference between each support plan
+
+1. basic
+    free
+    only 7 chore checks
+2. developer
+    all basic plan
+    24, 12 hours contact response
+    business hour email to cloud technical associate
+3. business
+    all developer plan
+    business hour email to cloud technical engineer
+    24/7
+    intended for production workload
+    24, 12, 4, 1 hours contact response
+4. enterprise on ramp
+    all business plan
+    access to pool of technical manager
+    24, 12, 4, 1 hours and 30 minutes contact response
+5. enterprise
+    all business plan
+    designated technical manageer
+    24, 12, 4, 1, hours and 15 minutes contact response
+    

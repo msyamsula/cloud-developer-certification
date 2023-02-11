@@ -1,0 +1,7 @@
+there are 4 pricing model in aws
+
+1. pay as you go: pay according to your usage
+2. save when you reserved: offer a discount/cost saving plan if you plan to reserve resource for a long time
+3. pay less by using more: discout offer if you use a service with high volume
+4. pay less as AWS grow: discount from aws when aws grow. some discount may be offered to loyal customer
+5. free service & free tier: a full free usage of a service like (IAM, VPC, cloud formation, beanstalk, auto scalling group, security group)

@@ -1,0 +1,9 @@
+saving plan is another way to pay aws.
+instead of thinking about how many do we have instances and pay it with on-demand bill.
+we can have up to 72 % discount by committing to a certain amount of dollar in each mount in one region(1,3,5 years).
+you pay this saving plan as all upfront, partial upfront, no upfront.
+
+there are 3 saving plan in aws:
+1. ec2 saving plan, saving plan for ec2
+2. compute saving plan, compute family saving plan (ec2, fargate, ecs)
+3. machine learning saving plan, sage maker.

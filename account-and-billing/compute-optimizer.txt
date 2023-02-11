@@ -1,0 +1,9 @@
+this is a machine learning based service based on your configuration and cloud watch metrics.
+the output of this service is a config recommendation about your cloud config and setup.
+to reduce unused instance or manage overused instance.
+recommendation can be exported to s3.
+works on:
+- auto scaling group
+- ebs volume
+- aws lambda
+- ec2 instances.

@@ -1,0 +1,1 @@
+instead of creaing organization manually. you can use control tower to automate the creation and SCP attachment in your organization.

@@ -1,0 +1,12 @@
+aws organization is a way to manage your account within organization.
+
+you are a flexible way to construct your organization unit (ou). whithin each ou you can set a certain deny/allow rules to your aws account.
+deny and allow is done using SCP (service control policies) the SCP rule will be propagated toward your organization tree, meaning SCP in root will propagate and have priority over ou below it.
+
+benefit using aws organization:
+1. easier way to manage multiple account
+2. easier way to manage deny/allow rule
+3. consolidated billing which can lead to discount and shared resource
+
+to enforce a rule within your organization account you can use guardrail.
+guardrail can also detect account that is violating your rules so you can remediate that account immediately.

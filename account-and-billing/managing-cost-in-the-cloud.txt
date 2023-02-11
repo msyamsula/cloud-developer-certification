@@ -1,0 +1,5 @@
+there are some ways to be smart about your cloud spending.
+
+1. estimate your cost: pricing calculator
+2. track your cost: billing, cost allocation tags (grouping your instance for better report), cost and usage report (detailed report), cost explorer (dashboard usage).
+3. track against your cost plan: billing alarm, budget.

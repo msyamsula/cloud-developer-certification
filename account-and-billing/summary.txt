@@ -1,0 +1,11 @@
+1. aws-budget: create budget and alarm for your aws cost
+2. compute-optimizer: check your cloud config (ec2, aws, lambda) and see unused/overused instance so you may create a decision for cost optimization
+3. trusted-advisor: run check of your cloud based on rules. the checks is on 5 aws categories (security, performance, cost optimization, fault torelance, service limit) and based on support plan you choose.
+4. control-tower: this service is a service on top of aws-organization to automatically create multiple account and assign service control policies to every account.
+5. organization: a handy way to manually manage multiple account and assign service control policies
+6. pricing model: pay as you go, pay less as you use more, reserved instance, pay as aws grow, free tier.
+7. saving plan: this is a plan in which you are given discount if you commit to certain usage and payment for 1,3,5 years. (ec2, compute, sage maker)
+8. managing cost in cloud:
+    estimate your cost with pricing calculator
+    track your cost with billing dashboard, cost tag allocation, cost usage and report, & cost explorer
+    track your usage against your plan, aws budget

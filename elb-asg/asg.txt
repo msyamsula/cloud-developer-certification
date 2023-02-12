@@ -1,0 +1,18 @@
+asg = auto scaling group
+
+this is a configuration which you can automatically add/remove ec2 instance as your load changes.
+this is a free service, but you need to pay for ec2 instance that is added to your system.
+with load balancer, you create complete elasticity of your ec2.
+
+how to set your number of instance in asg.
+
+1. manually
+2. dynamically
+    simple/step
+        if cloud watch hit alarm (CPU > 70) add 1 or (CP < 30) remove 1
+    target tracking
+        i want asg average cpu usage to be 50%
+    schedule scaling
+        scaling based on pre-defined schedule. e.g at 5 am to 7 am add 2 instance
+    predictive scaling
+        ML based on historical data

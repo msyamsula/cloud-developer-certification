@@ -1,0 +1,10 @@
+elb = elastic load balance, this is an service to distribute load to some service
+
+there is 4 load balance type in aws
+1. application load balance (balancing HTTP request) layer 7 in OSI layer
+2. network load balance (balancing TCP/UDP request) layer 4 in OSI layer
+3. gateway load balance ()
+4. classic load balance (deprecated)
+
+using with auto scaling group, you can achieve seamless elasticity in aws.
+using standalone you need to manually configure your resource behind the load balance.

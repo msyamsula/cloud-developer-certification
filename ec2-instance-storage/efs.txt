@@ -1,0 +1,5 @@
+efs = elastic file system
+
+network file system which can store data
+not bound in one AZ, ec2 from different AZ can access it.
+can connect to hundreds of ec2 at the same time.

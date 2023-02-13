@@ -1,0 +1,8 @@
+ami = amazon machine image
+
+this is a customization of an ec2 instance
+you can control OS, configuration, software, monitoring, etc
+this is build in specific region and can be copied across region
+amazon by default provided public AMI.
+you can use your own AMI.
+AMI can be shared and sold via amazon marketplace

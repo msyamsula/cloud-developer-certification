@@ -1,0 +1,7 @@
+ebs = elastic block storage
+
+this is a network storage that can be connected to ec2
+one ebs per ec2 (may multiple ebs but more complicated setup)
+since it is using network use can detach and attach independently, but at the cost of slower IOPS
+it is bound to one AZ
+can be moved between AZ/region with snapshot

@@ -1,0 +1,3 @@
+instance storage is a storage that is directly/physicaly attached with ec2.
+faster IOPS compared to ebs and efs, but bounded by hardware limit
+not quite scalable if you have multiple ec2 that need to connect with single storage

@@ -1,0 +1,8 @@
+instance-type
+1. general purpose (M & T) - balance compute, network, memory.. usually good for almost all use case with non specific needs
+2. compute optimized (C) - high performance monitor, batch processing monitor, dedicated game server, HPC (high performance computing), machine learning
+3. memory optimized (R, X, & Z) - fast performance for processing high volume of data within RAM, redis, rds, database, datalake, data warehouse
+4. accelerated computing (P, G, Inf) - hardware accelerated, perform function with floating point, graphic processing, data pattern matching
+5. storage optimized (I, D) - high IOPS, high sequential read & write access, database (relational & non-relational), OLTP, cache, data warehouse
+6. instance feature
+7. measuring instance

@@ -1,0 +1,7 @@
+on-demand: pay as you go, for temporary usage with predictable cost (per hour for non-linux, per second after first minute for linux)
+reserved instance: reserve an instance by paying upfront to use for long term (1,3,5). it will result in high discount (commit to certain instance size), can be sold on marketplace
+saving plan: by commiting for long term use you will have optimized cost (1,3,5 years), saving plan allow you to pay hourly. (you can change your instance type)
+spot instance: bid for unused location but you can lose it when there is someone bid higher (pay by bidding the space), short usage
+dedicated instance: no other customer will share your hardware
+dedicated host: book entire physical server
+capacity reserved: book a capacity in a specific AZ

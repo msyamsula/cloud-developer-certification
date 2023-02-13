@@ -1,0 +1,13 @@
+ec2 image builder is a tools to automate creation, maintain, test, and validate of an image.
+
+you can run manually or schedule the ec2 builder image
+
+image builder has a pipeline which consist of following steps
+1. select OS
+2. select instance type and size
+3. select storage (EBS)
+4. select configuration (VPC, subnet, security group)
+5. select installation package
+6. select testing package
+7. select distribution setting (in which region and user you want to share final image)
+notes: builder need to attach EC2InstanceProfileImageBuilder, AwsSSMInstanceCore, EC2InstanceProfileImageBuilderForContainer

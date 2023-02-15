@@ -1,0 +1,6 @@
+1. stop guessing your capacity
+2. test system at production scale
+3. automate to make architectural experiment easier
+4. allow for evolutionary changes
+5. drive architectures using data
+6. improve

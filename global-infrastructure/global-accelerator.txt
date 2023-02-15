@@ -1,0 +1,5 @@
+this is a service that you can use to leverage aws private network.
+can speed up your performance and data transfer.
+it will leverage edge location to proxy any traffic from user. then all traffic from edge to aws resource by aws private network
+
+without global accelerator you will use public internet network

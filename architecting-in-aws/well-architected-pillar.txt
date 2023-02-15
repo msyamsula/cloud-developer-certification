@@ -1,0 +1,18 @@
+1. operational exellence
+2. security
+3. reliability
+4. performance
+5. cost optimization
+6. sustainability
+
+
+operational exellence:
+prepare, operate, evolve.
+perform operation as a code
+make documentation automatically (annotation)
+frequent, small, reversible changes
+anticipate failure
+learn from failuer
+good monitoring and logging for better MTTA and MTTR
+
+security:

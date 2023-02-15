@@ -1,0 +1,103 @@
+api gateway: this is a layer to make HTTP layer for lambda function
+batch: for batching process with unlimited timeout (lambda has max 15 minutes api timeout)
+ligthsail: simpler version of aws cloud
+acm: managing TLS certificate
+artifact: compliance and security documentation for guidance purpose
+abuse: help/contact center to report suspicious activity
+config: track you config and make sure you comply to certain config rule
+hsm: hardware security module, encrypting your encryption key/data with hardware rather than software
+detective: knowing root cause of problem
+guard-duty: ML based that continously track logs (cloud trail, vpc flow logs, cloud watch, k8s, etc) to detect malicious usage/activity
+inspector: inspect security for EC2, docker, and lambda
+kms: key management service to manage your encryption key
+macie: analyse your s3 to detech sensitive data
+root-user-privilege: change account name/password, close the account, restore IAM role to user, cancel/change support plan, register as seller in marketplace, view tax-invoice
+secret-manager: place to store and retrieve your secret
+security-hub: centralize hub to see security of your cloud
+waf: web application firewall, firewall to set rules that come into your instance/location
+shield: prevent DDoS
+client-vpn: make private laptop to connect with VPC as if the laptop is within the VPC (can access private subnet)
+private-link: private connection between vpc
+security-group: firewall in instance level, only allow rules, stateful
+network-access-control-list: firewall in subnet level, allow and deny rules, stateless
+site2site-vpn: vpn that encrypt connection between on-premise and aws. It use public network
+transit-gateway: star topology of all of your VPC with this as its center.
+vpc-endpoint: leveraging private-link to connect aws with private connection
+vpc-flow-logs: log of IP address that come and out of your vpc
+vpc-peering: connection/merger between 2 VPC as long as there is no overlapped CIDR range
+vpc: subset of ip address that is given to use and has free access in aws cloud. stretch across multiple AZ
+comprehend: NLP
+forecast: forecasting data based on historical data
+kendra: document search ML
+lex-connect: powered alexa
+personalize: create real time personalize suggestion/recommendation
+polly: text to audio
+rekognition: image/face recognition, labelling, etc
+sage-maker: create you own ML model, train it, and deploy it.
+textract: extract string from image, ID, document and etc.
+transcribe: audio to text
+translate: translate between language
+cloudFront: Content Delivery Network for better latency
+localzone: extension of region, so your server can be closer to your user
+outpost: physical rack from aws that can be installed on your on-premise and it is an extension of aws cloud.
+route53: DNS and regitrar service on aws
+asg: auto scalling group, can manage your ec2 based on your need (min,desire,max instance)
+elb: balance load to multiple instance of ec2. application LB (layer 7), network LB (layer 4), gateway LB
+ebs: network storage which is bound to AZ, can be move via snapshot and transfer the snapshot to different AZ
+efs: network storage span multiple AZ and can be mounted on hundreds of ec2 and on-premises
+instance-storage: physical storage that is attached to ec2
+ami: amazon machine image, base configuration of your ec2, public, your own, and marketplace
+instance-type: (M & T) general purpose, balance configuration. (C) compute optimize, has more computing power suitable for graphic, simulation, video game, HPC, (R,X,Z) memory optimized, optimized for high ram usage. redis, (D & I) storage optimized. high size and performance of storage. suitable for database
+ec2-pricing: on demand (pay per hour), reserved (pay in advance for 1 & 3 year contract), saving plan (agree to contract for 1 & 3 year, pay in minute), spot (bid unused address, super cheap but can be kick without notice), dedicated instance (pay instance without sharing hardware with other people), dedicated host (pay full private physical host)
+image-builder: create recipe, base image, configuration, test, schedule, distribution of your AMI
+aws-cdk: cloud formation with your own language
+aws-sdk: explore aws cloud with your own language
+cloud-9: cloud code editor
+cloud-formation: infrastructure as a code, instead of manually click for resource creation. This service provide you with code that can be submit to aws for resource management (json and yaml file)
+code-artifact: save your code artifact
+code-build: build and test your code
+code-commit: github on aws
+code-deploy: automatically deploy your code to your server
+code-pipeline: orchestrating code-commit, build, and deploy
+code-star: ui for code-commit, build, deploy and pipeline
+beanstalk: platform as a service for web app
+ssm-session-manager: SSH to your server without opening SSH port
+ssm: doing patch, configuration, os update of all of your servers in one place
+athena: querying to S3
+dms: database migration service
+documentDB: mongoDB implementation in aws
+dynamoDB: aws own flavour of NoSQL
+elaticache: redis (in memory database)
+emr: elastic map-reduce - hadoop cluster
+glue: ETL tools
+managed-blockchain: decentralize legder
+neptune: graph database
+qldb: quantum ledger database, centralize ledger
+quicksight: monitoring and data dashboard in aws
+redshift: OLAP, data warehouse
+RDS: postgres, mysql, mariadb, oracle, etc
+ecr: container registry (dockerhub)
+ecs: elastic container service, for deploying containerization app
+fargate: ecs but your servers is automatically manage by aws (serverless)
+cloud-trail: record all user activity in aws cloud
+cloud-watch: collect all metrics and logs sent by system
+code-guru: provide code check and code suggestion to make your code optimal
+event-bridge: event management in aws
+personal-health-dashboard: dashboard of aws service status that which personalized to you based on what resource do you use
+service-health-dashboard: dashboard of aws overall health
+x-ray: distributed tracing
+amazon-mq: message queue which use open protocol such as MTTQ, AMQP, etc
+kinesis: real time big data streaming
+sns: simple notification system, aws pub/sub
+sqs: simple queue system, amazon own queue
+cognito: store your user credential
+iam-identity-center: single sign-in
+active-directory:
+sts: security token service, create temporary access
+aws-budget: set your desire spending and set alarm if your spending reach certain percentage of that budget
+compute-optimizer: optimize ec2, asg, lambda, and ebs for optimal usage
+control-tower: build on top of aws organization to automatically manage your account within organization (including attaching service control policy)
+aws paying option: pay as you go, pay less as you use more, pay as aws grow, free tier, reserved and saving plan
+organization: to manually manage your organization account and attaching appropriate service control policy to each user
+saving plan: this is a plan that you commit to use (ec2, docker (ecs, fargate, lambda), and sage maker) for 1 & 3 year. get a discount and pay in hour
+trusted-advisor: this is a check that run on your aws account to get overview of your current condition compare to aws best practice (performance, cost optimiztion, security, service limit, and fault tolerance)

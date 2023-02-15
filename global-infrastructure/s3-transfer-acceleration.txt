@@ -1,0 +1,3 @@
+this is used if you want to move s3 from one region to another
+s3 will cached to edge location,
+any get,set,modify will go into edge location and then from edge location to s3 with aws private link (faster than public)

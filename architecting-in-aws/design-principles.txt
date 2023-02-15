@@ -1,0 +1,4 @@
+1. scalability: vertical & horizontal
+2. disposable user: can be dispose if not needed and can be run really quick if need to be added
+3. automation: serverless, infrastructure as a code
+4. loose coupling: sns, sqs

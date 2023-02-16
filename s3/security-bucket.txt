@@ -1,0 +1,6 @@
+s3 bucket consist of two things
+
+1. user based: who can access the bucket
+2. resource based: is the bucket allow to be read/write/modify
+
+successfull attempt to the bucket is because of user is allowed OR resouce is open, AND there is no explicit deny

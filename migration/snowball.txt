@@ -1,0 +1,7 @@
+this is a portable physical storage and already have encryption layer owned by aws.
+think of your USB stick or Harddisk. if you use snowball then aws will give you this physical storage.
+export your data from storage (s3) to snowball.
+move the data along with snowball.
+import to your new storage (s3) from snowball.
+
+** you can use more than one snowball in one migration

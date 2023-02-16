@@ -1,0 +1,6 @@
+this is pretty much like snowball but have higher capacity (TB - PB) data.
+
+storage optimized has (80 TB of disk)
+compute optimized has (42 TB of dixk)
+
+** you can use more than one snowball edge in one migration

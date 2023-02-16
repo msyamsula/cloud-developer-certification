@@ -1,0 +1,33 @@
+based on retention policy, encryption, and easy access, there are several storage class in s3
+which are:
+1. standard
+2. standard Infrequent-access
+3. one zone infrequent-access
+4. glacier instant retrieval
+5. glacier flexible retrieval
+6. glacier deep archive
+7. Intelligent tiering
+
+when you store data to s3, you can change storage class within s3
+
+
+storage class explanation
+1. standard: this is a default, if you need frequent access use this
+2. standard infrequent access: this one is suitable for data that is not frequently accessed but you need fast retrieval when you need it. lower cost than standard (perfect for backup)
+3. one zone infrequent acess: this one is a little bit less in term of availability and perfect for secondary backup (backup of your backup)
+
+glacier class
+this is a s3 storage class for data that really really infrequent access (archive data).
+glacier class will archive and compress the data.
+for glacier class you need to pay for storing + retrieving data.
+
+1. glacier instant retrieval: milisecond retrieval (archive that has fast retrieval). perfect for data which are accessed once per quarter
+2. glacier flexible retrieval: expedited(1 - 5 minutes), standard (3 to 5 hours), bulk (5 - 12 hours) -> free for bulk, you can use this class for data which has minimum 90 days storing time
+3. glacier deep archive: long term archive, standard (12 hours retrieval), bulk (48 hours retrieval), minimum storage duration 180 days
+
+Intelligent tiering, this is an option to move access tiers based on usage within s3 based on below rules
+frequent access tier: default (automatic)
+infrequent access tier: object not access for 30 days (automatic)
+archive instant access tier: object no access for 90 days (automatic)
+archive access tier: configurable from 90 - 700+ days (optional)
+deep archive access tier: configurable from 180 - 700+ days (optional)

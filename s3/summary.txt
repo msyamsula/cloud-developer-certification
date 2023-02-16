@@ -1,0 +1,11 @@
+replication is one way process to replicate data from one bucket to another, can replicate across
+storage class
+1. standard
+2. standar ia
+3. one-zone ia
+4. glacier instant retrieval
+5. glacier flexible retrieval
+6. glacier deep archive
+7. intelligent tiering
+security bucket: you need to assign policy bucket to allow user and allow resource to be read/write
+storage gateway: bridge between on premise server with aws storage (ebs, efs, s3)

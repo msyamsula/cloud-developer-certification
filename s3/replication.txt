@@ -1,0 +1,9 @@
+replication is a way to make multiple s3 bucket to have the same state (contain the same data).
+for compliance purpose, redundancy, fault tolerant, high availability, and so on.
+
+you can replicate within the same region (SRR, same region replication) or across region (CRR, cross region replication)
+the replication happen asynchronously
+proper IAMrole needed for this
+bucket can be from different account
+replication, versioning in each buckets need to be enabled
+replication is a one way direction, you need to setup in both bucket if you want bi-directional replication

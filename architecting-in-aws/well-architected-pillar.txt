@@ -16,3 +16,40 @@ learn from failuer
 good monitoring and logging for better MTTA and MTTR
 
 security:
+strong identity foundation (centralize privilege management and reduce the need for long term credentials)
+principle of least privilege, give only enough privilege for any user to do what they want
+traceability, you need to be able to trace your system, metrics, log, activity and then response accordingly
+apply security layer, secure your cloud in every layer
+protect your data at rest and in transit
+keep people away from data
+prepare for security event
+
+reliability:
+test recovery procedur
+auto recover from failure
+scale horizontaly
+stop guessing the capacity
+manage change in automation
+
+performance efficiency:
+democratize advance technology
+go global in minutes
+use serverless
+experiment more often
+be aware of all aws service
+
+cost optimization:
+deliver business value at the lowest possibility
+pay only what you use
+measure overall efficiency
+stop spending money on data center
+analyse your expenditure by tags
+use managed and application level services
+
+sustainability:
+sustain the environment
+understand your impact
+establish sustainability goals like return of investment, global workload
+maximize utilization by right sizing your resource to use efficient energy
+anticipate and predict new technology to be adopted. new technology usually consume less energy
+leverage cold storage and archive for more effiecient cost storage

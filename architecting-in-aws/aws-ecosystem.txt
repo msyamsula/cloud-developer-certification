@@ -1,0 +1,17 @@
+aws blog
+aws community
+aws white paper & guide
+aws quick start
+aws solutions
+aws support plans (basic, developer, business, enterprise)
+aws marketplace: catalog of software listing from independent vendors
+aws training
+
+aws professional service:
+global team of expert,
+they work with you and APN (aws partner network)
+APN consist of:
+ aws technology partner, dealing with hardware, connectivity, and software
+ aws consulting partner, dealing with building in aws
+ aws training partner, dealing with help you learning aws
+"navigate program" to make partner better partner 

@@ -1,0 +1,10 @@
+freelance in aws cloud.
+
+for customer, you can find expert based on your budget and preference to help you with cloud solutions
+for experts, you can create profile and manage to get a gig from customer
+
+customer will be charged from aws credit and credit will be paid to experts
+
+
+AWS re:Post
+more like stackoverflow, some question ge upvoted, and continously review by experts

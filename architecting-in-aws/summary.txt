@@ -1,0 +1,38 @@
+well architected pillar
+1. operational exellence (using infrastructure as a code, small revertible changes, automation, documentation)
+2. security (apply security in every layer, strong identity foundation, centralize account & permission management, principle of least privilege, move away people from data)
+3. reliability (scaling and elasticity, incident/failure recovery, recovery action, high availability)
+4. performance efficient (be aware of aws services, use new technology, leverage serverless, don't complicated things)
+5. cost optimization (pay only what you use, considered reserved and spot instance, use saving plan, monitor and track your resource usage)
+6. sustainability (predict your business ROI, agile to change, scale only when you need it, predict new technology)
+
+
+good cloud design principle
+1. loose coupling: one service and another is highly independent
+2. disposable: it's better to have resource that is disposable when not needed and easy to boot when we want to increase it. don't create huge monolithic and complicated system
+3. automation: automate your tedious work so you can iterate and refine more often
+4. scalability: easy to scale so you can mitigate increased of traffic as well as cost optimization
+
+aws-IQ.txt
+this is an aws freelance forum, you can register as an expert and customer can search in the pool of experts to help them
+tackle their problem. customer aws credit will be charged and expert will be paid by aws
+
+aws-architected-tools
+this is an interactive tools/questionaire from aws to see your overall "well architechted pillar". Based on your answers, the tools can give you a recommendation of action that need to be done
+
+aws ecosystem:
+1. aws-blog
+2. aws-community
+3. aws-whitepaper
+4. aws-quickstart
+5. aws support plans
+6. aws marketplace
+7. aws training
+8. aws professional service
+    working with APN (aws partner network)
+        consist of:
+            aws technology partner: for hardware, software and OS related
+            aws consulting partner: dealing with solution, architecture in the cloud
+            aws training partner: help you to learn aws cloud
+9. aws knowledge center: FAQ documentation
+10. aws re:Post: stack-overflow like aws questionaire which is monitored by experts

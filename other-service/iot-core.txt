@@ -1,0 +1,3 @@
+connect your iot device to aws.
+you can communicate and with iot-core with pub/sub.
+you can also add and leverage more aws resource for better iot experience

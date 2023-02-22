@@ -1,0 +1,3 @@
+to stress aws workload like high usage of CPU and RAM to see how server behave under that load.
+it's good practice for preparing high load observation and chaos engineering
+see the performance bottleneck

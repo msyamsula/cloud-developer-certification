@@ -1,0 +1,1 @@
+store and sync your data with graphQL for mobile and web application

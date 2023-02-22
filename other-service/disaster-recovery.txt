@@ -1,0 +1,4 @@
+backup and restore
+pilot light
+warm standby
+multi-site/hot-site

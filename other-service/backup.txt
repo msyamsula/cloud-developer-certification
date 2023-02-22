@@ -1,0 +1,4 @@
+centralized and fully manged automate backup across region or across aws account (organization)
+can be run on demand or scheduled
+support point in time recovery
+config your retention, lifecycle, backup policies

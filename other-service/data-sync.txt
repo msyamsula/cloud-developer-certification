@@ -1,0 +1,4 @@
+move large amount of data from on premise to aws
+replication can be configure hourly, daily, weekly
+
+incremental replication after first full load

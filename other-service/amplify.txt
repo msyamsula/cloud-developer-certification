@@ -1,0 +1,2 @@
+tools and service to help you develop and deploy full stack web app and mobile app.
+it will automatically set up your backend for you like (lambda, s3, cognito, sync, dynamoDB, RDS, sage-maker, etc)

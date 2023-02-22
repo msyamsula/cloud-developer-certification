@@ -1,0 +1,2 @@
+Desktop as a service, solution to easily provision microsoft and linux dashboard
+you can have multiple workspace in different region

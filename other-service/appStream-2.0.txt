@@ -1,0 +1,3 @@
+stream application to your web browser.
+
+use app like (photosoft, corel, eclipse, etc) via web browser
